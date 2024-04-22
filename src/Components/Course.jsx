@@ -11,7 +11,7 @@ const Course = () => {
     <div className='px-4 lg:px-[70px]'>
       <div className="flex flex-col lg:flex-row justify-between pt-[10%] items-center gap-y-8 lg:gap-y-0">
         <div className="basis-[50%]">
-            <img src="https://img.freepik.com/free-photo/side-view-worker-typing-laptop_23-2149831298.jpg?t=st=1713706240~exp=1713709840~hmac=16dc4f23cb5ea26dd097994cb17a8eac6f9903f48fe031083ad379a02bbba5ff&w=740" alt="" className='w-full h-[600px] rounded-[50px] object-cover' />
+            <img src="https://img.freepik.com/free-photo/side-view-worker-typing-laptop_23-2149831298.jpg?t=st=1713706240~exp=1713709840~hmac=16dc4f23cb5ea26dd097994cb17a8eac6f9903f48fe031083ad379a02bbba5ff&w=740" alt="" className='w-full lg:h-[600px] h-[300px] rounded-[50px] object-cover' />
         </div>
         <div className="basis-[40%]">
             <h2 className='text-white lg:text-6xl text-5xl'>The best course <br /> in animation</h2>

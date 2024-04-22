@@ -15,7 +15,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className=" lg:basis-[45%] relative">
-                    <img src="https://img.freepik.com/premium-photo/male-hands-are-typing-laptop-keyboard_977958-7501.jpg?w=996" alt=""style={{width: '100%'}} className='rounded-[50px] h-[650px] object-cover object-center' />
+                    <img src="https://img.freepik.com/premium-photo/male-hands-are-typing-laptop-keyboard_977958-7501.jpg?w=996" alt=""style={{width: '100%'}} className='rounded-[50px] lg:h-[650px] h-[300px] object-cover object-center' />
 
                     <svg width={100} height={100} viewBox="0 0 438 490" className='absolute top-[10%] -left-8' fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M229.889 56.1973C255.394 67.877 282.163 74.7664 305.991 89.5742C328.21 103.382 345.698 122.179 364.812 140.045C386.585 160.397 423.242 173.125 427.018 202.701C430.922 233.28 381.807 251.909 383.028 282.712C384.89 329.656 452.108 367.811 435.307 411.679C421.256 448.366 361.804 438.058 322.619 440.445C290.899 442.377 260.814 416.873 229.889 424.194C185.925 434.601 158.487 490.816 113.317 489.991C72.2956 489.242 21.6859 460.531 13.7359 420.247C4.01432 370.986 72.2336 333.872 72.5984 283.661C72.8498 249.075 25.2131 231.869 15.3456 198.723C3.11618 157.643 -9.01473 110.502 9.55018 71.8733C27.6949 34.1191 69.0136 3.14397 110.769 0.17332C155.086 -2.97966 189.488 37.6959 229.889 56.1973Z" fill="url(#paint0_linear_2_211)"/>

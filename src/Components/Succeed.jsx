@@ -34,7 +34,7 @@ const Succeed = () => {
       <h2 className='lg:text-6xl text-5xl text-white text-center'>Everything you need to succeed</h2>
         <div className="flex flex-col lg:flex-row justify-between pt-14 gap-y-8 lg:gap-y-0">
             {succeed.map((item, index)=>(
-                <div key={index} className="rounded-[50px] bg-zinc-800 border border-zinc-700 p-8 py-14 text-center basis-[23.5%]">
+                <div key={index} className="rounded-[50px] bg-zinc-800 border border-zinc-700 p-8 py-14 text-center basis-[23.5%] lg:h-[600px] h-[300px]">
                     <h3 className='text-6xl text-white'>{item.header}</h3>
                     <p className='text-base text-white pt-3 uppercase tracking-widest'>{item.details}</p>
                 </div>
