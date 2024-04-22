@@ -58,7 +58,7 @@ const Succeed = () => {
             </div>
             </div>
             <div className="basis-[45%]">
-                <img src="https://img.freepik.com/premium-photo/close-up-african-man-typing-laptop-working-online_249974-8869.jpg?w=740" alt="" className='w-full h-[600px] rounded-[50px] object-cover' />
+                <img src="https://img.freepik.com/premium-photo/close-up-african-man-typing-laptop-working-online_249974-8869.jpg?w=740" alt="" className='w-full lg:h-[600px] h-[300px] rounded-[50px] object-cover' />
             </div>
         </div>
 
