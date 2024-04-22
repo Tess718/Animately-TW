@@ -83,7 +83,7 @@ const Succeed = () => {
                     <div className="rounded-[50px] p-4 bg-zinc-900 border border-zinc-700 flex flex-col-reverse lg:flex-row-reverse justify-between items-stretch">
                         
                         <div className="basis-[55%]">
-                        <p className='text-zinc-50 text-left p-8 pr-0 text-xl'>
+                        <p className='text-zinc-50 text-left p-8 pr-0 lg:text-xl'>
                             {item.comment}
                         </p>
 
