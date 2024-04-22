@@ -105,8 +105,8 @@ const Succeed = () => {
         <h2 className='text-center text-white lg:text-6xl text-5xl pt-[10%] pb-10 lg:pb-0'>Start learning <br /> animation <span className='relative'>today <img src="Frame.png" alt="" className='absolute left-0 right-0 w-full mt-3' /></span></h2>
 
         <div className="flex gap-x-6 justify-center pt-[4%] pb-[5%]">
-            <button className='rounded-xl bg-[#d68bfb] px-6 py-4 font-medium text-zinc-900 lg:text-xl text-lg'>Sign up for free</button>
-            <button className='rounded-xl bg-zinc-900 text-[#d68bfb] border border-zinc-700 font-medium px-6 py-3 lg:text-xl text-lg'>Learn more</button>
+            <button className='rounded-xl bg-[#d68bfb] px-6 py-4 font-medium text-zinc-900 lg:text-xl text-xs'>Sign up for free</button>
+            <button className='rounded-xl bg-zinc-900 text-[#d68bfb] border border-zinc-700 font-medium px-6 py-3 lg:text-xl text-xs'>Learn more</button>
         </div>
 
     </div>
