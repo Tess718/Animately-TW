@@ -30,7 +30,7 @@ const testimonials = [
 
 const Succeed = () => {
   return (
-    <div className='px-4 lg:px-[70px] pt-[10%]'>
+    <div className='px-4 lg:px-[70px] lg:pt-[10%] pt-[20%]'>
       <h2 className='lg:text-6xl text-5xl text-white text-center'>Everything you need to succeed</h2>
         <div className="flex flex-col lg:flex-row justify-between pt-14 gap-y-8 lg:gap-y-0">
             {succeed.map((item, index)=>(
@@ -42,10 +42,10 @@ const Succeed = () => {
         </div>
 
 
-        <div className="flex flex-col lg:flex-row pt-[10%] justify-between items-center gap-y-8 lg:gap-y-0">
+        <div className="flex flex-col lg:flex-row lg:pt-[10%] pt-[20%] justify-between items-center gap-y-8 lg:gap-y-0">
             <div className="basis-[45%]">
                 <h2 className='lg:text-7xl text-5xl text-white'>Learn at your preferred pace</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga incidunt, magni cumque repellat nam numquam?</p>
+                <p className='text-zinc-50 pt-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga incidunt, magni cumque repellat nam numquam?</p>
 
                 <div className='flex-col mt-5'>
                 {anilist.map((list, index)=>(
@@ -62,7 +62,7 @@ const Succeed = () => {
             </div>
         </div>
 
-        <div className='pt-[10%]'>
+        <div className='lg:pt-[10%] pt-[20%]'>
             <h2 className='text-white text-center text-6xl'>What our students say</h2>
             
             <Swiper
@@ -76,7 +76,7 @@ const Succeed = () => {
                     clickable: true,
                   }}
                 modules={[Autoplay]}
-                className="mySwiper mt-16"
+                className="mySwiper lg:mt-16 mt-10"
             >
             {testimonials.map((item, index)=>(
                 <SwiperSlide className='text-white lg:px-[10%]' key={index}>
@@ -102,9 +102,9 @@ const Succeed = () => {
 
         </div>
 
-        <h2 className='text-center text-white lg:text-6xl text-5xl pt-[10%] pb-10 lg:pb-0'>Start learning <br /> animation <span className='relative'>today <img src="Frame.png" alt="" className='absolute left-0 right-0 w-full mt-3' /></span></h2>
+        <h2 className='text-center text-white lg:text-6xl text-5xl lg:pt-[10%] pt-[20%] pb-10 lg:pb-0'>Start learning <br /> animation <span className='relative'>today <img src="Frame.png" alt="" className='absolute left-0 right-0 w-full mt-3' /></span></h2>
 
-        <div className="flex gap-x-6 justify-center pt-[4%] pb-[5%]">
+        <div className="flex gap-x-6 justify-center pt-[4%] lg:pb-[5%] pb-[20%]">
             <button className='rounded-xl bg-[#d68bfb] px-6 py-4 font-medium text-zinc-900 lg:text-xl text-xs'>Sign up for free</button>
             <button className='rounded-xl bg-zinc-900 text-[#d68bfb] border border-zinc-700 font-medium px-6 py-3 lg:text-xl text-xs'>Learn more</button>
         </div>

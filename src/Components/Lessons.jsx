@@ -11,7 +11,7 @@ const card =[
 
 const Lessons = () => {
   return (
-    <div className='px-4 lg:px-[70px] pt-[10%] pb-11'>
+    <div className='px-4 lg:px-[70px] lg:pt-[10%] pt-[20%] pb-11'>
       <h2 className='text-white text-center lg:text-7xl text-5xl'>Interactive online <br /> lessons at <br /> <span className='relative'>your pace <img src="Frame.png" alt="" className='absolute left-0 right-0 w-full mt-3' /></span>
       </h2>
 

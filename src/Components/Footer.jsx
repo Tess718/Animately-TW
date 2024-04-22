@@ -22,8 +22,8 @@ const Footer = () => {
 
   return (
     <div className='px-4 lg:px-[70px]'>
-      <hr className='pb-[5%]' />
-    <footer className="text-white p-4">
+      <hr className='lg:pb-[5%] pb-[20%]' />
+    <footer className="text-white lg:py-4">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-wrap lg:flex-row justify-between items-start">
           <h4 className='text-xl lg:text-3xl flex gap-x-4 basis-[45%] lg:basis-0 items-center'> <img src="Vector.png" alt="" className='w-10' /> Animately</h4>
