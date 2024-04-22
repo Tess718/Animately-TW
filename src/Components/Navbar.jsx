@@ -42,7 +42,7 @@ const Navbar = () => {
         <div className="-mr-2 flex md:hidden z-20">
               <button
                 onClick={toggleNavbar}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+                  className={`inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white ${isOpen ? 'fixed right-7 top-6' : ''}`}
               >
                 <svg
                   className={`${isOpen ? 'hidden' : 'block'} h-6 w-6`}
