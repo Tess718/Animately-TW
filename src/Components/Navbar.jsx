@@ -28,6 +28,7 @@ const Navbar = () => {
                   <a key={item.name}
                   href={item.href}
                   className='text-white'
+                  onClick={toggleNavbar}
                   >{item.name}</a>
                 ))}
               </div>
