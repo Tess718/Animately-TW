@@ -30,43 +30,26 @@ const Design = () => {
 
   const options = useMemo(
     () => ({
-    //   background: {
-    //     color: {
-    //       value: "#0d47a1",
-    //     },
-    //   },
-    fullScreen: { enable: false },
+    fullScreen: { enable: true },
         preset: "stars",
         particles: {
             number: {
-              value: 30 // Adjust the number of particles
+              value: 60 // Adjust the number of particles
             },
             size: {
-              value: 2 // Adjust the size of particles
+              value: 1 // Adjust the size of particles
             },
             color: {
               // Adjust the color of particles
               value: ["#d68bfb"] 
               // You can provide an array of colors for variation
-            },
-            interactivity: {
-                events: {
-                  onClick: {
-                    enable: true,
-                    mode: "push",
-                  },
-                  onHover: {
-                    enable: true,
-                    mode: "repulse",
-                  },
-                },
-            },    
+            },  
             move: {
                 enable: true,
                 speed: 2, // Adjust the speed of particle movement
-                direction: "none", // Change to "top", "top-right", "right", "bottom-right", "bottom", "bottom-left", "left", or "top-left" for directional movement
+                direction: "top", // Change to "top", "top-right", "right", "bottom-right", "bottom", "bottom-left", "left", or "top-left" for directional movement
                 random: true, // Enable random direction
-                straight: false, // Disable straight movement
+                straight: true, // Disable straight movement
                 out_mode: "out", // Change to "out" or "bounce" to control particle movement outside the canvas
                 bounce: false, // Enable bouncing movement if out_mode is set to "bounce"
                 attract: {

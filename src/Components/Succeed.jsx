@@ -17,7 +17,9 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 
 const Succeed = () => {
-    AOS.init();
+    AOS.init({
+        duration: 1500,
+    });
   return (
     <div className='px-4 lg:px-[70px] lg:pt-[10%] pt-[20%] overflow-x-hidden'>
       <h2 className='lg:text-6xl text-5xl text-white text-center'>Everything you need to succeed</h2>
