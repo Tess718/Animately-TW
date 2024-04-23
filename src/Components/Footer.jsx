@@ -40,11 +40,11 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row justify-between pt-14">
-        <p>@ Animately 2024. All rights reserved.</p>
+        <p className='text-xs text-center lg:text-start pb-3 lg:pb-0'>@ Animately 2024. All rights reserved.</p>
 
-        <div className='flex gap-x-14'>
-          <p>Built by Dev.Tess</p>
-          <p>Inspired by Kevin Dakin</p>
+        <div className='flex lg:gap-x-14 justify-between lg:justify-normal'>
+          <p className='text-xs'>Built by Dev.Tess</p>
+          <p className='text-xs'>Inspired by Kevin Dakin</p>
         </div>
         </div>
 
