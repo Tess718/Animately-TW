@@ -1,14 +1,16 @@
 import React from 'react'
+import Design from './Design'
 
 const Hero = () => {
   return (
-    <div className='px-4 lg:px-[70px]'>
-        <div className="hero lg:pt-[5%] pt-[30%]">
+    <div className='px-4 lg:px-[70px] relative'>
+        <Design />
+        <div className="hero lg:pt-[5%] pt-[30%] relative z-5">
             <div className="flex flex-col lg:flex-row justify-between items-center gap-y-10 lg:gap-y-0
             ">
                 <div className=' lg:basis-[45%]'>
                     <h6 className='text-lg text-white pb-3 tracking-widest'>ANIMATELY</h6>
-                    <h1 className='text-5xl lg:text-6xl text-white '>Learn animation online from leading experts</h1>
+                    <h1 className='text-5xl lg:text-7xl text-white '>Learn animation online from leading experts</h1>
                     <div className='flex gap-x-6 pt-[10%]'>
                         <button className='rounded-xl bg-[#d68bfb] px-6 py-4 font-medium text-zinc-900 lg:text-xl text-xs'>Sign up for free</button>
                         <button className='rounded-xl bg-zinc-900 text-[#d68bfb] border border-zinc-700 font-medium px-6 py-3 lg:text-xl text-xs'>Learn more</button>

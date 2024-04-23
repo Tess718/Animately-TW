@@ -1,12 +1,6 @@
 import React, { useState } from 'react'
+import { navigation } from '../constants';
 
-const navigation = [
-    { name: 'Course', href: '#', current: true },
-    { name: 'Pricing', href: '#', current: false },
-    { name: 'FAQ', href: '#', current: false },
-    { name: 'Blog', href: '#', current: false },
-    { name: 'Contact', href: '#', current: false },
-  ]
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

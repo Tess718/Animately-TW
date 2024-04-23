@@ -1,13 +1,9 @@
 import React from 'react';
 import './Collab.css';
 
-const logos = [
-    { icon:'https://www.gobio.com/wp-content/uploads/2020/12/light-logo-04.png'},
-    { icon:'https://luxeliving.in/wp-content/uploads/2022/12/partner4.png'},
-    { icon:'https://www.gobio.com/wp-content/uploads/2020/12/light-logo-04.png'},
-    { icon:'https://luxeliving.in/wp-content/uploads/2022/12/partner4.png'},
-    { icon:'https://www.gobio.com/wp-content/uploads/2020/12/light-logo-04.png'},
-]
+import { logos } from '../constants';
+
+
 
 const Collab = () => {
   return (
