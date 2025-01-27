@@ -14,7 +14,7 @@ const Lessons = () => {
 
       <div className="flex flex-col lg:flex-row gap-x-[20px] lg:pt-[7%] pt-[15%] pb-[5%] gap-y-8">
       {card.map((item, index) => (
-        <div key={index} className="p-10 rounded-[50px] py-20 bg-zinc-900 border border-zinc-700" data-aos="fade-right">
+        <div key={index} className="p-10 rounded-[50px] py-20 bg-zinc-900 backdrop:blur-xl border border-zinc-700" data-aos="fade-right">
           <img src={item.image} alt="why" className='w-[60px] pb-8' />
           <h2 className='text-sm text-[#d68bfb] tracking-widest'>{item.name}</h2>
           <h3 className='text-5xl pt-5 pb-8 text-white'>{item.header}</h3>

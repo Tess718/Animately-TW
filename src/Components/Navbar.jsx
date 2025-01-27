@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { navigation } from '../constants';
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -29,7 +30,11 @@ const Navbar = () => {
 
               <div className='flex flex-col lg:flex-row gap-y-4 gap-x-4 pt-6 lg:pt-0'>
                   <button className='rounded-xl bg-zinc-900 px-6 py-3 font-medium text-[#d68bfb] border border-zinc-700'>Log in</button>
-                  <button className='rounded-xl bg-[#d68bfb] text-zinc-900 font-medium px-6 py-3'>Sign Up</button>
+                  <button className='rounded-xl bg-[#d68bfb] text-zinc-900 font-medium px-6 py-3'>
+                    <Link to="/Signup">
+                    Sign Up
+                    </Link>
+                   </button>
               </div>
 
               </div>

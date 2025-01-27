@@ -1,9 +1,9 @@
 export const navigation = [
-    { name: 'Course', href: '#', current: true },
-    { name: 'Pricing', href: '#', current: false },
-    { name: 'FAQ', href: '#', current: false },
-    { name: 'Blog', href: '#', current: false },
-    { name: 'Contact', href: '#', current: false },
+    { name: 'Course', href: 'Course', current: true },
+    { name: 'Pricing', href: 'Pricing', current: false },
+    { name: 'FAQ', href: 'FAQ', current: false },
+    { name: 'Blog', href: 'Blog', current: false },
+    { name: 'Contact', href: 'Contact', current: false },
 ]
 
 export const succeed = [
