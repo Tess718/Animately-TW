@@ -1,7 +1,9 @@
+
+
 export const navigation = [
-    { name: 'Course', href: 'Course', current: true },
+    // { name: 'Course', href: 'Course', current: true },
     { name: 'Pricing', href: 'Pricing', current: false },
-    { name: 'FAQ', href: 'FAQ', current: false },
+    { name: 'FAQ', href: 'Faq', current: false },
     { name: 'Blog', href: 'Blog', current: false },
     { name: 'Contact', href: 'Contact', current: false },
 ]
@@ -29,7 +31,68 @@ export const card =[
     {name: 'MODULE 1', header: 'Principles', content: 'Foundational principles essential for mastering animation dynamics and aesthetics', image: 'Vector.png'},
     {name: 'MODULE 2', header: 'Basic', content: 'Introductory courses covering fundamental concepts and techniques for aspiring animators.', image: 'Vector.png'},
     {name: 'MODULE 3', header: 'Advanced', content: 'Advanced-level workshops focusing on intricate animation methodologies and creative expression.', image: 'Vector.png'},
-  ]
+]
+
+export const faqitems = [
+  { id: 1,
+    title: 'What is your refund policy?', 
+    content: 'We offer a 30-day money-back guarantee.' },
+  { id: 2,
+    title: 'What kind of animation do you teach?', 
+    content: 'We cover 2D, 3D, and motion design. You’ll learn fundamentals like timing, spacing, and character movement, along with software-specific skills in tools such as Blender, After Effects, and Toon Boom.' },
+  { id: 3,
+    title: 'Do I need any prior experience to start?', 
+    content: 'Not at all. Our beginner courses start with the basics — how animation works, simple exercises, and hands-on projects that build confidence as you go.' },
+  { id: 4,
+    title: 'What software do I need?', 
+    content: 'We recommend Blender (free and open-source) for 3D, and After Effects for motion design. You’ll find setup guides in each course section.' },
+  { id: 5,
+    title: 'Are the courses self-paced?', 
+    content: 'Yes. You can learn at your own speed and revisit lessons anytime. Each module includes checkpoints to help you track your progress.' },
+  { id: 6,
+    title: 'Will I get feedback on my work?', 
+    content: 'Yes. Our instructors and community moderators review project submissions weekly and offer constructive feedback to help you improve.' },
+];
+
+export const pricing = [
+  {
+    name: 'Free',
+    price:'$0',
+    header: 'per month',
+    content: 'Get started with essential tools and learn the basics of animation.',
+    list: [
+      { icon: 'bi bi-check-circle-fill', content: 'Access to beginner animation modules' },
+      { icon: 'bi bi-check-circle-fill', content: 'Join community discussions and forums' },
+      { icon: 'bi bi-check-circle-fill', content: 'Limited templates and learning resources' },
+    ],
+    button: 'Get Started',
+  },
+  {
+    name: 'Pro',
+    price:'$395',
+    header: 'per month',
+    content: 'Level up your skills with advanced tools and exclusive learning projects.',
+    list: [
+      { icon: 'bi bi-check-circle-fill', content: 'All Free features included' },
+      { icon: 'bi bi-check-circle-fill', content: 'Full access to all animation modules' },
+      { icon: 'bi bi-check-circle-fill', content: 'Priority support and project feedback' },
+      { icon: 'bi bi-check-circle-fill', content: 'Downloadable assets and resources' },
+    ],
+    button: 'Upgrade to Pro',
+  },
+  {
+    name: 'Enterprise',
+    header: 'Custom Pricing',
+    content: 'Tailored solutions and training for studios, teams, or institutions.',
+    list: [
+      { icon: 'bi bi-check-circle-fill', content: 'Custom training and onboarding' },
+      { icon: 'bi bi-check-circle-fill', content: 'Dedicated support and consultation' },
+      { icon: 'bi bi-check-circle-fill', content: 'Flexible licensing and team management' },
+    ],
+    button: 'Contact Sales',
+  },
+];
+
 
 
 export const anilist1 = [

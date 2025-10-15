@@ -26,7 +26,7 @@ const Design = () => {
         preset: "stars",
         particles: {
             number: {
-              value: 60 // Adjust the number of particles
+              value: 100 // Adjust the number of particles
             },
             size: {
               value: 1 // Adjust the size of particles

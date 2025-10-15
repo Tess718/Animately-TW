@@ -1,5 +1,4 @@
 import React from 'react';
-import './Collab.css';
 
 import { logos } from '../constants';
 

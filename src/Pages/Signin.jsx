@@ -1,7 +1,7 @@
 import Design from "../Components/Design"
 import { Link } from "react-router-dom"
 
-const Signup = () => {
+const Signin = () => {
   return (
     <div>
       <Design />
@@ -32,19 +32,14 @@ const Signup = () => {
             <img src="Vector.png" alt="" width={50} />
             <p className="text-white text-4xl font-semibold">Animately</p>
           </div> */}
-          <form action="" className="bg-zinc-900 backdrop:blur-2xl w-full lg:p-12 p-6 py-8 rounded-[50px] border border-zinc-700 relative z-3">
+          <form action="" className="bg-zinc-900 backdrop:blur-2xl md:w-full w-[90dvw] lg:p-12 p-6 py-8 rounded-[50px] border border-zinc-700 relative z-3">
             <div>
-            <h3 className="text-center font-medium text-[#d68bfb] text-2xl">Create an Account.</h3>
-            <p className="text-white text-center">Already have an account <Link to="/Signin" className="text-[#d68bfb]">Sign in</Link></p>
+            <h3 className="text-center font-medium text-[#d68bfb] text-2xl">Welcome back!</h3>
+            <p className="text-white text-center">Don&apos;t have an account? <Link to="/Signup" className="text-[#d68bfb]">Sign up</Link></p>
             <div className="flex flex-col gap-5 w-full mt-5 text-white">
-              <input type="text" placeholder="Name" className="h-[45px] w-full rounded-[15px] ps-4 outline-none border border-zinc-700 bg-transparent"/>
               <input type="email" placeholder="Email Address" className="h-[45px] w-full rounded-[15px] ps-4 outline-none border border-zinc-700 bg-transparent" />
-              <input type="password" placeholder="Create Password" className="h-[45px] w-full rounded-[15px] ps-4 outline-none border border-zinc-700 bg-transparent" />
-              <div className="flex gap-2 text-[14px]">
-                <input type="checkbox" name="" id="" /><p className="text-white">By signing up you agree to our <span className="text-[#d68bfb]">Terms of Use</span> and <span className="text-[#d68bfb]">Privacy Policy</span></p>
-              </div>
-
-              <button className="rounded-[15px] bg-[#d68bfb] h-[45px] text-white font-medium">Sign Up</button>
+              <input type="password" placeholder="Password" className="h-[45px] w-full rounded-[15px] ps-4 outline-none border border-zinc-700 bg-transparent" />
+              <button className="rounded-[15px] bg-[#d68bfb] h-[45px] text-white font-medium">Sign In</button>
             </div>
             </div>
           </form>
@@ -54,4 +49,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signin
