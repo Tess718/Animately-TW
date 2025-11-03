@@ -8,10 +8,9 @@ const Contact = () => {
         <Navbar />
         <div className="md:px-[70px] px-4">
             <Design />
-            <div className="flex gap-10 items-center pb-24 pt-10 md:flex-row flex-col">
+            <div className="flex gap-10 items-center pb-24 max-sm:pt-24 pt-10 md:flex-row flex-col">
                 <div className='basis-1/2'>
-                    <h5 className='uppercase text-[#d68bfb]'>we&apos;re here to help you</h5>
-                    <h2 className='text-white md:text-5xl text-3xl py-5'>Discuss Your <br className='hidden md:block' /> Animation <br className='hidden md:block' /> Solution Needs</h2>
+                    <h2 className='text-white md:text-5xl text-3xl font-semibold py-5'>Discuss Your <br className='hidden md:block' /> Animation <br className='hidden md:block' /> Solution Needs</h2>
                     <p className='text-slate-300'>Are you looking for top-quality animation solutions tailored <br /> to your needs? Reach out to us.</p>
 
                     <div className="flex items-center gap-5 mt-10">

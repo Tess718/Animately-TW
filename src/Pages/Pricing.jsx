@@ -8,8 +8,8 @@ const Pricing = () => {
     <div>
         <Navbar />
         <Design />
-        <div className='pt-10 pb-20 px-4 lg:px-[70px]'>
-            <h1 className='text-5xl lg:text-7xl text-white text-center '>Pricing</h1>
+        <div className='pt-10 pb-28 px-4 lg:px-[70px] max-sm:pt-24'>
+            <h1 className='text-5xl lg:text-7xl text-white text-center font-semibold'>Pricing</h1>
             <p className='text-slate-300 text-center text-3xl pt-5 pb-10'>Safely collect, Process, and share your <br className='hidden md:block' /> data with the plan that&apos;s right for you.</p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1 place-content-center gap-10 pt-10">

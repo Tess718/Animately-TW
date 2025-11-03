@@ -14,7 +14,7 @@ export default function Faq() {
     <div>
         <Navbar />
         <Design />
-        <div className='px-5 md:px-[70px] py-10'>
+        <div className='px-5 md:px-[70px] py-10 max-sm:pt-24'>
           <h2 className='text-white lg:text-7xl text-5xl font-semibold'>Frequently <br /> asked questions</h2>
           <div className='pb-20 flex md:flex-row flex-col justify-between gap-20 md:mt-10'>
             <div className='basis-2/3'>
